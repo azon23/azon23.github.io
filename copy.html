@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>005 - Lot N°235</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5605caeca1.js" crossorigin="anonymous"></script>
+</head>
+<body class="copy">
+    <header>
+        <a href="login_teacher.html" style="text-decoration: none; color: black;">
+            <i class="fa-solid fa-right-to-bracket fa-rotate-180" title="Se déconnecter"></i>
+        </a>
+        <div class="flex">
+            <img class="avatar" src="img/avatar.png" alt="Photo de profil">
+            <h2>DRAME Youba (NSI)</h2>
+        </div>
+        <i class="fa-solid fa-gear" title="Paramètres"></i>
+    </header>
+
+
+    <main>
+        <nav>
+            <h2>Copies - Lot N°235</h2>
+            <ul>
+                <li>001</li>
+                <hr>
+                <li>002</li>
+                <hr>
+                <li>003</li>
+                <hr>
+                <li>004</li>
+                <hr>
+                <li>005</li>
+                <hr>
+                <li>006</li>
+                <hr>
+                <li>007</li>
+                <hr>
+                <li>008</li>
+                <hr>
+                <li>009</li>
+                <hr>
+                <li>010</li>
+                <hr>
+                <li>011</li>
+                <hr>
+                <li>012</li>
+                <hr>
+                <li>013</li>
+                <hr>
+                <li>014</li>
+                <hr>
+                <li>015</li>
+            </ul>
+        </nav>
+
+        <section>
+            <div id="pspdfkit"></div>
+
+            <div class="right-panel">
+                <h2>Barème</h2>
+
+                <div class="bareme">
+
+                    <div class="notes">
+                        <div>
+                            <p>Question 1 <span><input type="number" placeholder="_" max="1" step="0.25"> /1</span></p>
+                        </div>
+                        <div>
+                            <p>Question 2 <span><input type="number" placeholder="_" max="3.5" step="0.25"> /3,5</span></p>
+                            <ul>
+                                <li>Partie A  <span><input type="number" placeholder="_" max="1.5" step="0.25"> /1,5</span></li>
+                                <li>Partie B  <span><input type="number" placeholder="_" max="2" step="0.25"> /2</span></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>Question 3 <span><input type="number" placeholder="_" max="2.5" step="0.25"> /2,5</span></p>
+                        </div>
+                        <div>
+                            <p>Question 4 <span><input type="number" placeholder="_" max="3" step="0.25"> /3</span></p>
+                        </div>
+                    </div>
+
+                    <div class="total">
+                        <p>Note finale <span><span>0</span>/10</span></p>
+                    </div>
+                </div>
+
+                <div class="appreciation">
+                    <h2>Appréciations</h2>
+                    <textarea id="appreciation" type="text" rows="4" placeholder="Votre appréciation sur la copie" maxlength="500"></textarea>
+                </div>
+
+                <a style="text-decoration: none;" href="lot.html" class="link btn btn-style-1">Enregistrer</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+    <script type="module" src="pspdfkit.js"></script>
+</body>
+</html>
